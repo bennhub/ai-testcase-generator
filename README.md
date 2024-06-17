@@ -35,17 +35,6 @@ To install and use the AI Test Case Generator, follow these steps:
 
     Replace `your_openai_api_key_here` with your actual OpenAI API key.
 
-## Usage
 
-To generate test cases, use the provided function in your Node.js application:
 
-```javascript
-const { generateTestCases } = require('./generateTestCases'); // Adjust path as necessary
 
-async function main() {
-    const requirement = "Example requirement statement";
-    const testCases = await generateTestCases(requirement);
-    console.log("Generated test cases:", testCases);
-}
-
-main();
