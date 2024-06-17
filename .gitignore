@@ -1,0 +1,23 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# dotenv environment variables file
+.env
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Compiled output (if applicable)
+/dist/
+/out/
+
